@@ -1,0 +1,45 @@
+.optionCustom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+
+.optionCustomWrapper{
+    width: 100%;
+}
+
+
+
+.fadeOption{
+    color: rgb(146, 146, 146);
+}
+
+.get_product_dropdown .rc-virtual-list-holder{
+    max-height: 450px !important;
+}
+
+.ant-select-item.optionsWrapper{
+    margin: 7px 0;
+}
+
+
+.add_pro_input_wrapper{
+    width: 100%;
+}
+
+
+
+
+.custom_dropdown{
+    width: 100%;
+}
+.addProductInputIcon{
+    height: 32px;
+}
+
+.ui.button.dropdown.icon{
+    width: 100%;
+    background: none;
+    border: 1px solid #c4c2c2;
+}

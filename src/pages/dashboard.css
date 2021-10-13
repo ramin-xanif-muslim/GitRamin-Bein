@@ -1,0 +1,42 @@
+.dashboard_card_ul li {
+    list-style-type: none;
+}
+
+.pageWrapper.dashboardPage {
+    margin-top: 111px;
+}
+
+.site-statistic-demo-card {
+    padding: 30px;
+    background: #ececec;
+}
+
+.card_wrapper {
+    border: 1px solid black;
+}
+
+.ant-card-head {
+    background: #ececec;
+    padding-bottom: 0 !important;
+}
+
+.ant-card-body {
+    padding: 4px !important;
+}
+
+.ant-statistic-content span {
+    font-size: 24px !important;
+}
+
+.ant-statistic-content-prefix{
+    display: flex;
+}
+.ant-statistic-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ant-card{
+    border-radius: 3px;
+}

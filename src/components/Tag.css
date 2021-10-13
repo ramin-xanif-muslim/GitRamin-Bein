@@ -1,0 +1,9 @@
+.tag_renders_date{
+    cursor: pointer;
+}
+
+.tag_renders_date.active{
+    font-weight: bold;
+    background-color: transparent !important;
+
+}

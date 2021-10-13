@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.check {
+    color: black !important;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif !important;
+    width: 290px !important;
+    margin-top: 5px !important;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 46px;
+}
+
+.check .table {
+    min-width: 219px !important;
+    margin: 0 !important;
+}
+.checkpayment {
+    padding: 10px;
+}
+.checkpayment span {
+    margin: 6px 0;
+}
+.pricep {
+    margin-left: 53px;
+}
+.check_header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.check_header_info.totalPrice {
+    font-size: 20px !important;
+}
+
+.info_h4 {
+    font-size: 15px !important;
+}
+.check_header_info {
+    margin: 0;
+}
+
+.check_header_bottom {
+    margin-top: 10px;
+}
+
+tr {
+    --bs-table-accent-bg: none !important;
+}
+.info_h4 {
+    margin: 0;
+}
+
+.check_main_info_section {
+    display: flex;
+    justify-content: space-between;
+    color: black !important;
+}
+.check_main_info {
+    display: flex;
+    flex-direction: column;
+    color: black !important;
+}
+.check_main_info.right {
+    justify-content: flex-end;
+}
+
+.ant-divider-dashed {
+    border-color: black;
+}
+
+.check th {
+    position: initial !important;
+}
+
+.totalPrice {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,7 @@
+.transaction_buttons_menu span,
+.transaction_buttons_menu a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: none !important;
+}

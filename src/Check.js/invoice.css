@@ -1,0 +1,100 @@
+.invoice_header {
+    display: flex;
+    justify-content: center;
+    background-color: #a6a6a6;
+}
+
+.invoice_main_info {
+    display: flex;
+    justify-content: center;
+}
+.invoice_main_info_wrapper {
+    padding: 10px 0 0 0;
+    justify-content: center;
+}
+
+.invoice_main_info_part {
+    display: flex;
+    color: black;
+}
+
+.customerinfo p{
+    font-size: 17px !important;
+}
+.header_name{
+    font-style: italic !important;
+}
+.companyname{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+
+}
+.companyname .cols{
+    display: flex;
+}
+.invoice_main_info_part p:last-child{
+    margin-left: 20px;
+}
+.invoice_main_info_part.market {
+    width: 50%;
+}
+.invoice .react-bootstrap-table thead th {
+    top: 0 !important;
+    color: black !important;
+}
+.invoice .react-bootstrap-table tfoot th {
+    position: initial !important;
+}
+.invoice .react-bootstrap-table  td {
+    top: 0 !important;
+    color: black !important;
+    border-color: black;
+}
+.invoice .react-bootstrap-table  tr {
+    border-color: black;
+    border-top: none !important;
+}
+
+.invoice .react-bootstrap-table  tr:last-of-type td {
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+.invoice .react-bootstrap-table table {
+    margin: 0 !important;
+}
+
+.number_wrapper p,
+.cusnames p{
+    font-weight: bold !important;
+}
+
+.boldFooter{
+   font-size: 24px !important;
+
+}
+
+
+
+.ant-divider-horizontal.ant-divider-with-text.total_price_divider::before {
+    position: relative;
+    top: 50%;
+    width: 50%;
+    border-top: 1px solid black !important;
+    border-top-color: inherit;
+    border-bottom: 0;
+    transform: translateY(50%);
+    content: '';
+}
+
+.ant-divider-horizontal.ant-divider-with-text.total_price_divider::after {
+    position: relative;
+    top: 50%;
+    width: 50%;
+    border-top: 1px solid black !important;
+    border-top-color: inherit;
+    border-bottom: 0;
+    transform: translateY(50%);
+    content: '';
+}

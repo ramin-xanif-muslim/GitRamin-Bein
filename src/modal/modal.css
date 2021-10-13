@@ -1,0 +1,72 @@
+.ant-modal-body .table_holder {
+    margin: 0;
+}
+
+.ant-modal .buttons_wrapper_side {
+    grid-row-gap: 0px;
+    row-gap: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 20000;
+    background: white;
+}
+
+.ant-modal {
+  width: 100% !important;
+}
+
+.ant-modal .react-bootstrap-table thead th {
+    position: sticky;
+    top: 66px;
+    background-color: #fff;
+}
+.ant-drawer-body #closeBtn {
+    display: none;
+}
+
+.ant-drawer-body .tab .ant-row.ant-form-item {
+    display: flex;
+    justify-content: space-between;
+}
+.ant-drawer-body .tab_wrapper {
+    overflow: auto;
+}
+
+.ant-drawer-body .tab .ant-form-item-label {
+    overflow: initial;
+}
+
+.ant-drawer-body .group_item_wrapper .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+}
+
+.custom_add_group_icon {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom_add_group_icon svg {
+    color: #0288d1;
+}
+
+
+.docModal .ant-form-item-label {
+    overflow: initial !important;
+}
+
+.docModal .form_item_with_icon_modal{
+    position: relative;
+}
+
+
+.docModal .form_item_with_icon_modal .add_elements_modal{
+    padding: 4px;
+    font-size: 21px;
+    color: #0288d1;
+    margin-bottom: 24px;
+    cursor: pointer;    
+    position: absolute;
+    top: 0;
+    right: 0;
+}

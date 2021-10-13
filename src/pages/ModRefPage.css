@@ -1,0 +1,10 @@
+.edit_col,
+.del_col {
+    text-align: center;
+}
+.ant-modal-content{
+    overflow: hidden;
+}
+.ant-drawer {
+    overflow: hidden;
+}

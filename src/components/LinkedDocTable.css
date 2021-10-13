@@ -1,0 +1,40 @@
+.linked_doc_info {
+    display: flex;
+}
+
+.cusname_linked {
+    color: black;
+}
+
+.linked_info_span {
+    margin-left: 4px;
+}
+
+.linked_doc_button_wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linked_doc_top_side {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+
+.documentTable .table {
+    width: initial !important;
+    min-width: 100% !important;
+}
+
+#linked_doc_filter {
+    padding: 0;
+    border: none;
+    text-align: center;
+    display: flex;
+}
+
+.docTableWrapper .ant-drawer-content-wrapper {
+    width: 75vw !important;
+}
