@@ -1,106 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
 
-<head>
-  <style type="text/css">
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-    }
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
 
-    .App {
-      text-align: center;
-    }
+    <!-- adaptivnaya versaka -->
+    <meta name="viewport" content="width=device-width" />
 
-    .App-header {
-      background-color: black;
-      height: 150px;
-      padding: 20px;
-      color: white;
-    }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    .App-intro {
-      font-size: large;
-    }
-    .App img{
-      width: 50px;
-      height: 50px;
-      padding: 10px;
-      border-radius: 25px;
-    }
-    .text{
-      padding: 20px;
-    }
-  </style>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-
-  <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-
-  <link rel="manifest" href="manifest.json" />
-
-  <title>Bein</title>
-  
-  <script src="./js/notification.js"></script>
-
-
-  <!-- script dlya raboti kameri v PWA -->
-  <script nomodule=""
-    src="https://unpkg.com/@ionic/pwa-elements@1.3.0/dist/ionicpwaelements/ionicpwaelements.js"></script>
-</head>
-
-<body>
-  <script>
-    function notifyMe1() {
-      var notification = new Notification("Bein Systems.", {
-        tag: "ache-mail",
-        body: "Bu proqram təminatı ilə siz bütün biznes prosesləri bir mərkəzdən idarə edə, işlərin gedişatına və nəticələrə nəzarət edə bilərsiniz.",
-        icon: "apple-touch-icon.png"
-      });
-    }
-
-    function notifSet() {
-      if (!("Notification" in window))
-        alert("Ваш браузер не поддерживает уведомления.");
-      else if (Notification.permission === "granted"){
-      setTimeout(notifyMe1, 2000);
-      setInterval(notifyMe2, 13000);
-    }
-      else if (Notification.permission !== "denied") {
-        Notification.requestPermission(function (permission) {
-          if (!('permission' in Notification))
-            Notification.permission = permission;
-          if (permission === "granted") {
-      setTimeout(notifyMe1, 2000);
-          }
-        });
-      }
-    }
-    notifSet()
-  </script>
-
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root">
-    <div class="App">
-      <div class="App-header">
-        <h2>Bein sistemle ishlerinizi yolungoyun.</h2>
-        
-      </div>
-      <div class=App-intro>
-        <img src='./maskable.png'>
-        <p class="text">
-          Loading site...
-        </p>
-  
-      </div>
-    </div>
-  </div>
-  <video  width="320" height="240" autoplay></video>
-</body>
-
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Bein Lite</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
